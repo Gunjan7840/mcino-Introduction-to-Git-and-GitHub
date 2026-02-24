@@ -1,0 +1,12 @@
+Microsoft Windows [Version 10.0.18363.1556]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\Dell>git checkout main
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\Dell>git merge bug-fix-typogit checkout main
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\Dell>git merge bug-fix-type
+git checkout main > merge_branches
+git merge bug-fix-typo >> merge_branches
